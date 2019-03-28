@@ -19,6 +19,7 @@
 		D09F12DF224CAC2700D4B056 /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = D09F12D8224CAC2700D4B056 /* note4.wav */; };
 		D09F12E0224CAC2700D4B056 /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = D09F12D9224CAC2700D4B056 /* note3.wav */; };
 		D09F12E1224CAC2700D4B056 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = D09F12DA224CAC2700D4B056 /* note1.wav */; };
+		D09F12E4224CB04600D4B056 /* XXII Ultimate-Black-Metal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D09F12E3224CB04600D4B056 /* XXII Ultimate-Black-Metal.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D09F12D8224CAC2700D4B056 /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
 		D09F12D9224CAC2700D4B056 /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
 		D09F12DA224CAC2700D4B056 /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		D09F12E3224CB04600D4B056 /* XXII Ultimate-Black-Metal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "XXII Ultimate-Black-Metal.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		D09F12C0224CABEC00D4B056 /* Xylophone */ = {
 			isa = PBXGroup;
 			children = (
+				D09F12E2224CB02700D4B056 /* Fonts */,
 				D09F12D3224CAC0B00D4B056 /* SoundFiles */,
 				D09F12C1224CABEC00D4B056 /* AppDelegate.swift */,
 				D09F12C3224CABEC00D4B056 /* ViewController.swift */,
@@ -91,6 +94,14 @@
 				D09F12D6224CAC2700D4B056 /* note7.wav */,
 			);
 			path = SoundFiles;
+			sourceTree = "<group>";
+		};
+		D09F12E2224CB02700D4B056 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D09F12E3224CB04600D4B056 /* XXII Ultimate-Black-Metal.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 				D09F12C9224CABEE00D4B056 /* Assets.xcassets in Resources */,
 				D09F12C7224CABEC00D4B056 /* Main.storyboard in Resources */,
 				D09F12E1224CAC2700D4B056 /* note1.wav in Resources */,
+				D09F12E4224CB04600D4B056 /* XXII Ultimate-Black-Metal.ttf in Resources */,
 				D09F12DF224CAC2700D4B056 /* note4.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
