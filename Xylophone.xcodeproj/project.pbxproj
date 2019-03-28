@@ -12,6 +12,13 @@
 		D09F12C7224CABEC00D4B056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09F12C5224CABEC00D4B056 /* Main.storyboard */; };
 		D09F12C9224CABEE00D4B056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09F12C8224CABEE00D4B056 /* Assets.xcassets */; };
 		D09F12CC224CABEE00D4B056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09F12CA224CABEE00D4B056 /* LaunchScreen.storyboard */; };
+		D09F12DB224CAC2700D4B056 /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = D09F12D4224CAC2700D4B056 /* note2.wav */; };
+		D09F12DC224CAC2700D4B056 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = D09F12D5224CAC2700D4B056 /* note5.wav */; };
+		D09F12DD224CAC2700D4B056 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = D09F12D6224CAC2700D4B056 /* note7.wav */; };
+		D09F12DE224CAC2700D4B056 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = D09F12D7224CAC2700D4B056 /* note6.wav */; };
+		D09F12DF224CAC2700D4B056 /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = D09F12D8224CAC2700D4B056 /* note4.wav */; };
+		D09F12E0224CAC2700D4B056 /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = D09F12D9224CAC2700D4B056 /* note3.wav */; };
+		D09F12E1224CAC2700D4B056 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = D09F12DA224CAC2700D4B056 /* note1.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		D09F12C8224CABEE00D4B056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D09F12CB224CABEE00D4B056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D09F12CD224CABEE00D4B056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09F12D4224CAC2700D4B056 /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		D09F12D5224CAC2700D4B056 /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		D09F12D6224CAC2700D4B056 /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		D09F12D7224CAC2700D4B056 /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		D09F12D8224CAC2700D4B056 /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		D09F12D9224CAC2700D4B056 /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		D09F12DA224CAC2700D4B056 /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 		D09F12C0224CABEC00D4B056 /* Xylophone */ = {
 			isa = PBXGroup;
 			children = (
+				D09F12D3224CAC0B00D4B056 /* SoundFiles */,
 				D09F12C1224CABEC00D4B056 /* AppDelegate.swift */,
 				D09F12C3224CABEC00D4B056 /* ViewController.swift */,
 				D09F12C5224CABEC00D4B056 /* Main.storyboard */,
@@ -62,6 +77,20 @@
 				D09F12CD224CABEE00D4B056 /* Info.plist */,
 			);
 			path = Xylophone;
+			sourceTree = "<group>";
+		};
+		D09F12D3224CAC0B00D4B056 /* SoundFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D09F12DA224CAC2700D4B056 /* note1.wav */,
+				D09F12D4224CAC2700D4B056 /* note2.wav */,
+				D09F12D9224CAC2700D4B056 /* note3.wav */,
+				D09F12D8224CAC2700D4B056 /* note4.wav */,
+				D09F12D5224CAC2700D4B056 /* note5.wav */,
+				D09F12D7224CAC2700D4B056 /* note6.wav */,
+				D09F12D6224CAC2700D4B056 /* note7.wav */,
+			);
+			path = SoundFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +151,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09F12E0224CAC2700D4B056 /* note3.wav in Resources */,
+				D09F12DD224CAC2700D4B056 /* note7.wav in Resources */,
+				D09F12DC224CAC2700D4B056 /* note5.wav in Resources */,
 				D09F12CC224CABEE00D4B056 /* LaunchScreen.storyboard in Resources */,
+				D09F12DE224CAC2700D4B056 /* note6.wav in Resources */,
+				D09F12DB224CAC2700D4B056 /* note2.wav in Resources */,
 				D09F12C9224CABEE00D4B056 /* Assets.xcassets in Resources */,
 				D09F12C7224CABEC00D4B056 /* Main.storyboard in Resources */,
+				D09F12E1224CAC2700D4B056 /* note1.wav in Resources */,
+				D09F12DF224CAC2700D4B056 /* note4.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
